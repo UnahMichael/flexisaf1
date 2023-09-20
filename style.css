@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+#taskInput {
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+#addTask {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px 20px;
+    border-radius: 4px;
+}
+
+/* Hover effect */
+#addTask:hover {
+    background-color: #1d3650;
+}
+h1{
+    font-size: 30px;
+    line-height: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
